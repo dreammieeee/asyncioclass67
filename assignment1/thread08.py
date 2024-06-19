@@ -1,7 +1,7 @@
 # Race Conditions
 import concurrent.futures
 import logging
-import time
+
 
 class FakeDatabase:
     def __init__(self):
