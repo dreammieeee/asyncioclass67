@@ -4,7 +4,6 @@ import time
 import random
 from pypokemon.pokemon import Pokemon
 
-
 app = Flask(__name__)
 
 def get_pokemon(url):
