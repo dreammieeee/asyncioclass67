@@ -8,7 +8,7 @@ async def make_coffee(): #1
     print("coffee: waiting...")
     await asyncio.sleep(5) #2: pause, another tasks can be run
     print("cofee: ready")
-
+  
 async def fry_eggs(): #1
     print("eggs: prepare ingridiants")
     sleep(1)
