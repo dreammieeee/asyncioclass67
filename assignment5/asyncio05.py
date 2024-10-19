@@ -1,6 +1,6 @@
 import asyncio
 import random
-
+   
 async def cook_rice():
     cooking_time = 1+random.random()
     print(f'Cooking rice... (will take {cooking_time:.10f} seconds)')
